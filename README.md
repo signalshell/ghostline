@@ -33,6 +33,8 @@ With the manual install, commands are invoked as `/ghostline-init`, `/ghostline-
 
 ## What is Ghostline?
 
-Ghostline is a documentation standard for agent-managed codebases. Three markdown layers (System, Container, Component) based on the C4 model. Agents maintain the docs as a side effect of development. Humans read at whatever altitude they need.
+C4 is the best architecture documentation standard for humans — but it is not good for agents. Agents work much better with text than with diagrams.
+
+Ghostline takes the C4 structure (System Context, Container, Component) and replaces every diagram with prose, lists, and tables. Agents maintain the docs as a side effect of development. Humans read at whatever altitude they need.
 
 Full spec: [signalshell.com/ghostline](https://signalshell.com/ghostline)

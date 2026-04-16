@@ -1,7 +1,7 @@
 {
   "name": "ghostline",
   "version": "1.0.0",
-  "description": "Layered architecture documentation for agent-managed codebases.",
+  "description": "C4 architecture layers as plain text. C4 is great for humans but not for agents — agents work better with text than diagrams.",
   "author": {
     "name": "Martin Sigloch",
     "url": "https://signalshell.com"
