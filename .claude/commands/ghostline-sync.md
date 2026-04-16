@@ -1,4 +1,4 @@
-Update Ghostline documentation to reflect recent code changes.
+Update Ghostline documentation to reflect recent code changes. Code is authoritative — the docs follow.
 
 ## Steps
 
@@ -14,7 +14,7 @@ Update Ghostline documentation to reflect recent code changes.
 
 4. Update only what changed. Do not rewrite sections that are still accurate.
 
-5. If a change introduces a new component or container that isn't documented yet, create the missing file following the Ghostline standard (signalshell.com/ghostline).
+5. If a change introduces a new component or container that is not documented yet, create the missing file following the Ghostline standard (signalshell.com/ghostline).
 
 6. If a change removes a component or container, remove or archive its doc file.
 
@@ -23,7 +23,7 @@ Update Ghostline documentation to reflect recent code changes.
 - No diagrams of any kind. Not ASCII art, not Mermaid, not PlantUML. Prose, lists, and tables only.
 - Level markers must be present at the top of each file (`<!-- L1: System Context -->`, `<!-- L2: Container -->`, `<!-- L3: Component -->`, `<!-- Reference -->`).
 - Code pointers in L3 files must be kept current — update file paths and function names if they moved.
-- Do not update docs for files you don't understand. Flag uncertain changes for human review instead.
+- Do not update docs for files you do not understand. Flag uncertain changes for human review instead.
 
 ## After updating
 
