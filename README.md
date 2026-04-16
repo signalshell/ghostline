@@ -8,10 +8,10 @@ Four slash commands for working with Ghostline docs in any project:
 
 | Command | Description |
 |---|---|
-| `/ghostline:ghostline-init` | Initialize Ghostline docs for a project from scratch |
-| `/ghostline:ghostline-sync` | Code changed — update docs to match |
-| `/ghostline:ghostline-implement` | Docs changed — update code to match |
-| `/ghostline:ghostline-check` | Find drift and determine which side needs updating |
+| `/ghostline:init` | Initialize Ghostline docs for a project from scratch |
+| `/ghostline:sync` | Code changed — update docs to match |
+| `/ghostline:implement` | Docs changed — update code to match |
+| `/ghostline:check` | Find drift and determine which side needs updating |
 
 `sync` and `implement` are two directions of the same workflow. Use `check` when you are not sure which side has drifted.
 

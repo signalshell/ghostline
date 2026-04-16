@@ -1,12 +1,12 @@
 ---
-description: Check whether Ghostline documentation is consistent with the current code. Uses git history to determine which side is authoritative for each discrepancy. Reports whether to run ghostline-sync or ghostline-implement.
+description: Check whether Ghostline documentation is consistent with the current code. Uses git history to determine which side is authoritative for each discrepancy. Reports whether to run sync or implement.
 ---
 
 Check whether this project's Ghostline documentation is consistent with the current code.
 
 ## Steps
 
-1. Check if `docs/system.md` exists. If not, report that Ghostline is not initialized and suggest running `/ghostline:ghostline-init`.
+1. Check if `docs/system.md` exists. If not, report that Ghostline is not initialized and suggest running `/ghostline:init`.
 
 2. Read `docs/system.md`. For each container listed, verify:
    - The container file exists at `docs/containers/[name].md`
@@ -23,13 +23,13 @@ Check whether this project's Ghostline documentation is consistent with the curr
 5. For each discrepancy found, check git history to determine which side changed more recently:
    - Run `git log -1 --format="%ci %s" -- <doc-file>` for the doc file
    - Run `git log -1 --format="%ci %s" -- <source-file>` for the relevant source file
-   - If the source file changed more recently: the docs are stale. Suggest running `/ghostline:ghostline-sync`.
-   - If the doc file changed more recently: the code has not caught up. Suggest running `/ghostline:ghostline-implement`.
+   - If the source file changed more recently: the docs are stale. Suggest running `/ghostline:sync`.
+   - If the doc file changed more recently: the code has not caught up. Suggest running `/ghostline:implement`.
    - If both changed at the same time or the signal is ambiguous: flag it explicitly.
 
 6. Report findings in three categories:
-   - **Docs are stale** — code changed after the docs; run `/ghostline:ghostline-sync`
-   - **Code has not caught up** — docs changed after the code; run `/ghostline:ghostline-implement`
+   - **Docs are stale** — code changed after the docs; run `/ghostline:sync`
+   - **Code has not caught up** — docs changed after the code; run `/ghostline:implement`
    - **Uncertain** — both sides changed around the same time, or the discrepancy cannot be attributed to either
 
 ## Rules
