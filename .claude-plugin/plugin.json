@@ -1,0 +1,14 @@
+{
+  "name": "ghostline",
+  "version": "1.0.0",
+  "description": "Layered architecture documentation for agent-managed codebases.",
+  "author": {
+    "name": "Martin Sigloch",
+    "url": "https://signalshell.com"
+  },
+  "homepage": "https://signalshell.com/ghostline",
+  "repository": "https://github.com/signalshell/ghostline",
+  "license": "MIT",
+  "keywords": ["documentation", "architecture", "c4", "agents"],
+  "skills": "./skills/"
+}
