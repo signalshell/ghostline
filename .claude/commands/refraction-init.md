@@ -1,6 +1,6 @@
-Initialize Ghostline documentation for this project.
+Initialize Refraction documentation for this project.
 
-Read the codebase to understand its structure, then create a complete set of Ghostline docs following this standard: signalshell.com/ghostline
+Read the codebase to understand its structure, then create a complete set of Refraction docs following this standard: signalshell.com/refraction
 
 ## Steps
 

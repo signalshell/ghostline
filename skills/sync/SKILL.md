@@ -1,14 +1,14 @@
 ---
-description: Update Ghostline documentation to reflect recent code changes. Code is authoritative. Use after modifying source files, adding features, changing interfaces, or restructuring components.
+description: Update Refraction documentation to reflect recent code changes. Code is authoritative. Use after modifying source files, adding features, changing interfaces, or restructuring components.
 ---
 
-Update Ghostline documentation to reflect recent code changes. Code is authoritative — the docs follow.
+Update Refraction documentation to reflect recent code changes. Code is authoritative — the docs follow.
 
 ## Steps
 
 1. Run `git diff HEAD~1 HEAD --name-only` (or `git diff --staged --name-only` if reviewing staged changes) to see what changed.
 
-2. For each changed file, determine which Ghostline doc(s) are affected:
+2. For each changed file, determine which Refraction doc(s) are affected:
    - Changes to system boundaries or external integrations → update `docs/system.md`
    - Changes to a container's interfaces, technology, or responsibilities → update `docs/containers/[name].md`
    - Changes to a component's behavior, interfaces, or code pointers → update `docs/components/[name].md`
@@ -18,7 +18,7 @@ Update Ghostline documentation to reflect recent code changes. Code is authorita
 
 4. Update only what changed. Do not rewrite sections that are still accurate.
 
-5. If a change introduces a new component or container that is not documented yet, create the missing file following the Ghostline standard (signalshell.com/ghostline).
+5. If a change introduces a new component or container that is not documented yet, create the missing file following the Refraction standard (signalshell.com/refraction).
 
 6. If a change removes a component or container, remove or archive its doc file.
 

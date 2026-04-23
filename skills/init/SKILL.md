@@ -1,10 +1,10 @@
 ---
-description: Initialize Ghostline documentation for a project from scratch. Use when a project has no docs/ directory or when starting Ghostline from the beginning.
+description: Initialize Refraction documentation for a project from scratch. Use when a project has no docs/ directory or when starting Refraction from the beginning.
 ---
 
-Initialize Ghostline documentation for this project.
+Initialize Refraction documentation for this project.
 
-Read the codebase to understand its structure, then create a complete set of Ghostline docs following this standard: signalshell.com/ghostline
+Read the codebase to understand its structure, then create a complete set of Refraction docs following this standard: signalshell.com/refraction
 
 ## Steps
 

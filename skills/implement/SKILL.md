@@ -1,8 +1,8 @@
 ---
-description: Update code to match Ghostline documentation. Docs are authoritative. Use after writing or updating docs first and wanting the implementation to catch up.
+description: Update code to match Refraction documentation. Docs are authoritative. Use after writing or updating docs first and wanting the implementation to catch up.
 ---
 
-Update code to match Ghostline documentation. Docs are authoritative — the code follows.
+Update code to match Refraction documentation. Docs are authoritative — the code follows.
 
 Use this when you have written or updated docs first and want the implementation to catch up. This is the "docs-first" workflow: specify what you want in the architecture docs, then let the agent implement it.
 
