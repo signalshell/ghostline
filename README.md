@@ -1,3 +1,5 @@
+<img src="icon-dark.svg" alt="Refraction" width="88">
+
 # Refraction
 
 Claude Code skills for the [Refraction documentation standard](https://signalshell.com/refraction).
